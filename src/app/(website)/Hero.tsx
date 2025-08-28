@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Button, Row, Column, Heading, Text } from '@oravo/react-zen';
+import { Button, Row, Column, Heading, Text } from '@umami/react-zen';
 import { CLOUD_URL } from '@/lib/constants';
 import useQueryString from '@/components/hooks/useQueryString';
 import ContentImage from '@/components/ContentImage';

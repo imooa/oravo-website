@@ -1,5 +1,5 @@
 'use client';
-import { Button, Row, Container } from '@oravo/react-zen';
+import { Button, Row, Container } from '@umami/react-zen';
 import Link from 'next/link';
 import CompanyLogo from '@/components/CompanyLogo';
 import MobileMenu from '@/components/MobileMenu';

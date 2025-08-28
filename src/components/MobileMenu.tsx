@@ -1,5 +1,5 @@
 'use client';
-import { Button, Icon, Icons, DialogTrigger, Modal, Dialog, Column, Text } from '@oravo/react-zen';
+import { Button, Icon, Icons, DialogTrigger, Modal, Dialog, Column, Text } from '@umami/react-zen';
 import Link from 'next/link';
 
 export default function MobileMenu({ items }) {

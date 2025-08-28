@@ -1,5 +1,5 @@
 'use client';
-import { Button } from '@oravo/react-zen';
+import { Button } from '@umami/react-zen';
 import styles from './GetStartedBanner.module.css';
 import { CLOUD_URL } from '@/lib/constants';
 import useQueryString from '@/components/hooks/useQueryString';

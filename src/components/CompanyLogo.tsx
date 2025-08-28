@@ -1,4 +1,4 @@
-import { Row, Icon, Text } from '@oravo/react-zen';
+import { Row, Icon, Text } from '@umami/react-zen';
 import Link from 'next/link';
 import { Logo } from 'src/components/svg';
 

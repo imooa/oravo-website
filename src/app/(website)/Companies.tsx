@@ -1,5 +1,5 @@
 'use client';
-import { Text, Column } from '@oravo/react-zen';
+import { Text, Column } from '@umami/react-zen';
 import styles from './Companies.module.css';
 
 const items = [

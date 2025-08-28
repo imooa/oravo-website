@@ -1,6 +1,6 @@
 'use client';
 import PageHeader from '@/components/PageHeader';
-import { Box } from '@oravo/react-zen';
+import { Box } from '@umami/react-zen';
 
 export default function AboutPage() {
   return (

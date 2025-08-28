@@ -1,5 +1,5 @@
 'use client';
-import { Grid, Row, Icon, Column, Heading, Text } from '@oravo/react-zen';
+import { Grid, Row, Icon, Column, Heading, Text } from '@umami/react-zen';
 import PageHeader from '@/components/PageHeader';
 import { GITHUB_URL, DISCORD_URL, X_URL, LINKEDIN_URL } from '@/lib/constants';
 import { Github, Discord, X, Linkedin } from 'src/components/svg';

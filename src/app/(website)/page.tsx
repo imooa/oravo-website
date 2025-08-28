@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Column } from '@oravo/react-zen';
+import { Column } from '@umami/react-zen';
 import GetStartedBanner from '@/components/GetStartedBanner';
 import Hero from './Hero';
 import QuickStart from './QuickStart';

@@ -1,4 +1,4 @@
-import { Column, Heading, Text } from '@oravo/react-zen';
+import { Column, Heading, Text } from '@umami/react-zen';
 import { ReactNode } from 'react';
 
 export default function PageHeader({

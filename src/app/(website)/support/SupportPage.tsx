@@ -1,5 +1,5 @@
 'use client';
-import { Column, Heading } from '@oravo/react-zen';
+import { Column, Heading } from '@umami/react-zen';
 import PageHeader from '@/components/PageHeader';
 
 export default function SupportPage() {

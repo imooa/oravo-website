@@ -1,5 +1,5 @@
 'use client';
-import { Box, Column, Grid, Heading, Icon, Text, Row } from '@oravo/react-zen';
+import { Box, Column, Grid, Heading, Icon, Text, Row } from '@umami/react-zen';
 import GetStartedBanner from '@/components/GetStartedBanner';
 import PageHeader from '@/components/PageHeader';
 import {

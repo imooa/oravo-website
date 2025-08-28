@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import classNames from 'classnames';
-import { Column, Row } from '@oravo/react-zen';
+import { Column, Row } from '@umami/react-zen';
 import TextBlock from '@/components/TextBlock';
 import ImageBlock from '@/components/ImageBlock';
 import styles from './ProductAnalytics.module.css';

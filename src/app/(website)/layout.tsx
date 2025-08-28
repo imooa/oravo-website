@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { Suspense } from 'react';
-import { Container, Grid } from '@oravo/react-zen';
+import { Container, Grid } from '@umami/react-zen';
 import Script from 'next/script';
 import { AxiomWebVitals } from 'next-axiom';
 import Header from './Header';
@@ -10,8 +10,8 @@ import '@fontsource/inter/500.css';
 import '@fontsource/inter/600.css';
 import '@fontsource/inter/700.css';
 import '@fontsource/jetbrains-mono/400.css';
-import '@oravo/react-zen/styles.css';
-import '@oravo/shiso/styles.css';
+import '@umami/react-zen/styles.css';
+import '@umami/shiso/styles.css';
 import 'highlight.js/styles/github-dark.css';
 import '@/styles/variables.css';
 import '@/styles/global.css';

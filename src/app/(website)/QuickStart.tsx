@@ -1,5 +1,5 @@
 'use client';
-import { Button, Row } from '@oravo/react-zen';
+import { Button, Row } from '@umami/react-zen';
 import Link from 'next/link';
 import TextBlock from '@/components/TextBlock';
 import { CLOUD_URL } from '@/lib/constants';

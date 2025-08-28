@@ -1,5 +1,5 @@
 'use client';
-import { Grid, Row, Column, Heading, Text, Container } from '@oravo/react-zen';
+import { Grid, Row, Column, Heading, Text, Container } from '@umami/react-zen';
 import Link from 'next/link';
 import CompanyLogo from '@/components/CompanyLogo';
 import SocialMedia from '@/components/SocialMedia';
