@@ -5,7 +5,7 @@ import Hero from './Hero';
 import QuickStart from './QuickStart';
 import Quotes from './Quotes';
 import WebAnalytics from './WebAnalytics';
-import OpenSource from './OpenSource';
+import FreeService from './OpenSource';
 import ProductAnalytics from './ProductAnalytics';
 
 export default function () {
@@ -15,7 +15,7 @@ export default function () {
       <WebAnalytics />
       <ProductAnalytics />
       <QuickStart />
-      <OpenSource />
+      <FreeService />
       <Quotes />
       <GetStartedBanner />
     </Column>

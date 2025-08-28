@@ -3,15 +3,15 @@ import TextBlock from '@/components/TextBlock';
 import LinkButton from '@/components/LinkButton';
 import { CLOUD_URL } from '@/lib/constants';
 
-export default function OpenSource() {
+export default function FreeService() {
   return (
     <Column gap="6">
       <TextBlock size="lg" align="center">
         <header>Get Started</header>
         <h2>Completely Free Analytics</h2>
         <p>
-          Oravo is completely free forever. No hidden costs, no trial periods, no limitations. 
-          Get powerful analytics insights without paying a dime.
+          Oravo is a free analytics service. No hidden costs, no trial periods, no limitations. 
+          Get powerful analytics insights at no cost to you.
         </p>
       </TextBlock>
       <Row alignItems="center" justifyContent="center" gap="3">
