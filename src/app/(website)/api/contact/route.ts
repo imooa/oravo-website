@@ -7,8 +7,8 @@ export async function POST(req: NextRequest) {
   sendgrid.setApiKey(process.env.SENDGRID_API_KEY as string);
 
   const msg = {
-    to: 'hello@oravo.com',
-    from: 'contact@oravo.com',
+    to: 'info@quizzstack.qzz.io',
+    from: 'info@quizzstack.qzz.io',
     subject: `Oravo Contact Form - ${name} (${email})`,
     replyTo: email,
     html: `<div>
