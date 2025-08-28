@@ -21,14 +21,14 @@ export default function Hero() {
         focus on <strong>growth</strong>
       </Text>
       <Row justifyContent="center" gap="3" style={{ zIndex: 1 }}>
-        <Button variant="primary" size="lg" asChild>
+        <Button variant="primary" size="lg" className={styles.blackButton} asChild>
           <Link href={`${CLOUD_URL}/signup${query}`} data-umami-event="get-started-button">
             Get started
           </Link>
         </Button>
         <Button size="lg" asChild>
           <a
-            href="https://analytics.imoogleai.xyz/share/demo"
+            href="https://analytics.imoogleai.xyz/share/QAJ0QBCu6mQkMuQ1/quizstack.qzz.io"
             data-umami-event="live-demo-button"
             target="_blank"
             rel="noreferrer"

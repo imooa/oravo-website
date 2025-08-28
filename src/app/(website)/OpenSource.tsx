@@ -1,29 +1,27 @@
 import { Column, Row } from '@umami/react-zen';
-import GitHubStats from '@/app/(website)/GitHubStats';
 import TextBlock from '@/components/TextBlock';
 import LinkButton from '@/components/LinkButton';
-import { GITHUB_URL } from '@/lib/constants';
+import { CLOUD_URL } from '@/lib/constants';
 
 export default function OpenSource() {
   return (
     <Column gap="6">
       <TextBlock size="lg" align="center">
-        <header>Contribute</header>
-        <h2>Powered by open source</h2>
+        <header>Get Started</header>
+        <h2>Completely Free Analytics</h2>
         <p>
-          Umami is proudly open source. Thousands of developers worldwide can share and contribute
-          to the Umami experience.
+          Oravo is completely free forever. No hidden costs, no trial periods, no limitations. 
+          Get powerful analytics insights without paying a dime.
         </p>
       </TextBlock>
       <Row alignItems="center" justifyContent="center" gap="3">
-        <LinkButton href="/docs" variant="outline">
-          Read documentation
+        <LinkButton href="/features" variant="outline">
+          View features
         </LinkButton>
-        <LinkButton href={GITHUB_URL} variant="outline" target="_blank">
-          View code repository
+        <LinkButton href={`${CLOUD_URL}/signup`} variant="outline" target="_blank">
+          Start for free
         </LinkButton>
       </Row>
-      <GitHubStats />
     </Column>
   );
 }

@@ -2,6 +2,16 @@
   margin-top: 100px;
 }
 
+.blackButton {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.blackButton:hover {
+  background-color: #333333 !important;
+}
+
 .image {
   max-width: 800px;
   margin: 0 auto;

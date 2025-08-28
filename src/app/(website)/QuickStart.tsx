@@ -21,7 +21,7 @@ export default function QuickStart() {
           <div className={styles.num}>1</div>
           <div className={styles.action}>Sign up</div>
           <div className={styles.description}>
-            Create a <Link href={url}>free</Link> account on Oravo Analytics.
+            Create a <Link href={url}>completely free</Link> account on Oravo Analytics.
           </div>
         </div>
         <div className={styles.step}>
@@ -40,8 +40,8 @@ export default function QuickStart() {
         </div>
       </div>
       <Row justifyContent="center">
-        <Button variant="primary" size="lg" asChild>
-          <a href={url}>Get started</a>
+        <Button variant="primary" size="lg" className={styles.blackButton} asChild>
+          <a href={url}>Get started - Completely free</a>
         </Button>
       </Row>
     </div>

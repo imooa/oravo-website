@@ -39,3 +39,13 @@
 .description {
   color: var(--font-color-muted);
 }
+
+.blackButton {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.blackButton:hover {
+  background-color: #333333 !important;
+}

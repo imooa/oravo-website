@@ -39,6 +39,16 @@
   justify-content: center;
 }
 
+.blackButton {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.blackButton:hover {
+  background-color: #333333 !important;
+}
+
 @media screen and (max-width: 360px) {
   .banner {
     max-width: 100vw;
