@@ -15,20 +15,21 @@ export default function Hero() {
       <Heading size="6" align="center">
         The modern analytics platform
         <br /> for effortless insights.
+        <br /><span style={{ fontSize: '0.7em', color: 'var(--primary-color)', fontWeight: 'bold' }}>Completely Free</span>
       </Heading>
       <Text color="muted" size="4" as="p">
         Oravo makes it easy to collect, analyze, and understand your website data &mdash; so you can
-        focus on <strong>growth</strong>
+        focus on <strong>growth</strong>. <strong>Completely free</strong> to use.
       </Text>
       <Row justifyContent="center" gap="3" style={{ zIndex: 1 }} className={styles.buttonRow}>
         <Button variant="primary" size="lg" asChild>
           <Link href={`${CLOUD_URL}/signup${query}`} data-umami-event="get-started-button">
-            Get started
+            Get started - Free
           </Link>
         </Button>
         <Button size="lg" asChild>
           <a
-            href="https://analytics.imoogleai.xyz/share/demo"
+            href="https://analytics.imoogleai.xyz/share/QAJ0QBCu6mQkMuQ1/quizstack.qzz.io"
             data-umami-event="live-demo-button"
             target="_blank"
             rel="noreferrer"

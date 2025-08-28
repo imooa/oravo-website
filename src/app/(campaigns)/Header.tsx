@@ -17,7 +17,7 @@ export default function Header() {
       </nav>
       <div className={styles.button} data-umami-event="lp-get-started-button">
         <LinkButton href={`${CLOUD_URL}/signup${query}`} variant="primary">
-          Get started
+          Get started - Free
         </LinkButton>
       </div>
     </header>

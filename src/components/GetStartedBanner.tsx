@@ -9,11 +9,11 @@ export default function GetStartedBanner() {
 
   return (
     <div className={styles.banner}>
-      <div className={styles.text}>Are you ready for better analytics?</div>
+      <div className={styles.text}>Ready for better analytics? Completely free!</div>
       <div className={styles.buttons}>
         <Button variant="primary" size="lg" asChild>
           <a href={`${CLOUD_URL}/signup${query}`} data-umami-event="get-started-banner-button">
-            Get started
+            Get started - Free
           </a>
         </Button>
       </div>

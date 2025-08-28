@@ -224,7 +224,7 @@ const items = [
       {
         title: 'Data ownership ',
         description: [
-          `Data is always in your control with Umami. You can self-host on your own infrastructure or export your data from Umami Cloud.`,
+          `Data is always in your control with Umami. You can self-host on your own infrastructure or export your data from Oravo Analytics.`,
         ],
         icon: <Key />,
       },
@@ -232,7 +232,7 @@ const items = [
   },
   {
     title: 'Cloud',
-    description: `Umami Cloud is a reliable, high-performance hosted solution.`,
+    description: `Oravo Analytics is a reliable, high-performance hosted solution.`,
     items: [
       {
         title: 'Fully managed',

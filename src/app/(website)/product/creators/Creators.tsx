@@ -24,7 +24,7 @@ export default function Creators() {
               website, and unlock valuable insights from a single, intuitive dashboard.
             </p>
             <LinkButton href={`${CLOUD_URL}/signup${query}`} size="lg" variant="primary">
-              Get started
+              Get started - Free
             </LinkButton>
           </TextBlock>
           <ContentImage src="/images/creators.jpg" alt="" className={styles.image} />

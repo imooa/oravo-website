@@ -41,7 +41,7 @@ export default function QuickStart() {
       </div>
       <Row justifyContent="center">
         <Button variant="primary" size="lg" asChild>
-          <a href={url}>Get started</a>
+          <a href={url}>Get started - Free</a>
         </Button>
       </Row>
     </div>

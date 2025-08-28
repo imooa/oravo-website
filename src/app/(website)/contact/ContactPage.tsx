@@ -10,7 +10,7 @@ export default function ContactPage() {
     <>
       <PageHeader title="Contact" description="We would love to hear from you!" />
       <Row justifyContent="center" style={{ padding: '0 20px' }}>
-        <Grid columns={{ xs: '1fr', md: '1fr 1fr' }} maxWidth="800px" gap="4">
+        <Grid columns={{ xs: '1fr', md: '2fr 1fr' }} maxWidth="1000px" gap="6">
           <ContactForm />
           <Column alignItems="center" gap="12" style={{ marginTop: '3rem' }}>
             <Column alignItems="center" gap="6">
