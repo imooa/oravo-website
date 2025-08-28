@@ -15,7 +15,6 @@ const data = [
   {
     title: 'Resources',
     items: [
-      { text: 'Community', href: '/community' },
       { text: 'Support', href: '/support' },
     ],
   },
@@ -59,7 +58,11 @@ export default function Footer() {
         </Grid>
         <Row justifyContent="space-between">
           <SocialMedia />
-          <Text size="1">&copy; {new Date().getFullYear()} Oravo Analytics, Inc.</Text>
+          <div style={{ textAlign: 'right' }}>
+            <Text size="1">&copy; {new Date().getFullYear()} Oravo Analytics, Inc.</Text>
+            <br />
+            <Text size="1" color="muted">by imoogle technology</Text>
+          </div>
         </Row>
       </Container>
     </Row>

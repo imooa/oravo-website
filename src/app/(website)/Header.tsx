@@ -13,10 +13,6 @@ const mobileMenuItems = [
     value: '/features',
   },
   {
-    label: 'Community',
-    value: '/community',
-  },
-  {
     label: 'Contact',
     value: '/contact',
   },
@@ -52,12 +48,12 @@ const ActionLinks = () => {
 
   return (
     <Row className={styles.actions} alignItems="center" gap="2">
-      <Button className={styles.login} variant="quiet" asChild>
+      <Button className={`${styles.login} ${styles.blackButton}`} variant="quiet" asChild>
         <Link href={`https://analytics.imoogleai.xyz/login${query}`} data-umami-event="login-button-header">
           Log in
         </Link>
       </Button>
-      <Button className={styles.signup} variant="primary" asChild>
+      <Button className={`${styles.signup} ${styles.blackButton}`} variant="primary" asChild>
         <Link
           href={`https://analytics.imoogleai.xyz/signup${query}`}
           data-umami-event="signup-button-header"

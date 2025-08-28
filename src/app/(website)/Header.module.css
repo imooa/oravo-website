@@ -23,6 +23,17 @@
   color: var(--primary-font-color);
 }
 
+.blackButton {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.blackButton:hover {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
+
 .links {
   color: var(--font-color);
   margin: 0 auto;

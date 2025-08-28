@@ -3,7 +3,7 @@ import { Column } from '@umami/react-zen';
 import GetStartedBanner from '@/components/GetStartedBanner';
 import Hero from './Hero';
 import QuickStart from './QuickStart';
-import Quotes from './Quotes';
+
 import WebAnalytics from './WebAnalytics';
 import FreeService from './OpenSource';
 import ProductAnalytics from './ProductAnalytics';
@@ -16,7 +16,6 @@ export default function () {
       <ProductAnalytics />
       <QuickStart />
       <FreeService />
-      <Quotes />
       <GetStartedBanner />
     </Column>
   );
