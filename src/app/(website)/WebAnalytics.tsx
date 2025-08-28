@@ -1,7 +1,7 @@
 'use client';
 import { ReactNode, CSSProperties } from 'react';
 import Link from 'next/link';
-import { Button, Flexbox, Icon, Icons, Text, Column } from '@umami/react-zen';
+import { Button, Flexbox, Icon, Icons, Text, Column } from '@oravo/react-zen';
 import TextBlock from '@/components/TextBlock';
 import ImageBlock from '@/components/ImageBlock';
 import styles from './WebAnalytics.module.css';

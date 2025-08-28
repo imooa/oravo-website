@@ -1,6 +1,6 @@
 import { HTMLAttributes, ReactElement, ReactNode } from 'react';
 import Link from 'next/link';
-import { Button, Icon, Text } from '@umami/react-zen';
+import { Button, Icon, Text } from '@oravo/react-zen';
 
 export interface LinkButtonProps extends HTMLAttributes<HTMLAnchorElement> {
   href: string;

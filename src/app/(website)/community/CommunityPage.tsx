@@ -1,5 +1,5 @@
 'use client';
-import { Grid, Row, Icon, Column, Heading, Text } from '@umami/react-zen';
+import { Grid, Row, Icon, Column, Heading, Text } from '@oravo/react-zen';
 import PageHeader from '@/components/PageHeader';
 import { GITHUB_URL, DISCORD_URL, X_URL, LINKEDIN_URL } from '@/lib/constants';
 import { Github, Discord, X, Linkedin } from 'src/components/svg';
@@ -56,7 +56,7 @@ export default function CommunityPage() {
               <Heading>{name}</Heading>
             </Row>
             <Text>{description}</Text>
-            <LinkButton href={url} target="_blank" data-umami-event={`community-${name}`}>
+            <LinkButton href={url} target="_blank" data-oravo-event={`community-${name}`}>
               Explore
             </LinkButton>
           </Column>

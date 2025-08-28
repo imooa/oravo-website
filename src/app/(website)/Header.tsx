@@ -1,5 +1,5 @@
 'use client';
-import { Button, Row, Container } from '@umami/react-zen';
+import { Button, Row, Container } from '@oravo/react-zen';
 import Link from 'next/link';
 import CompanyLogo from '@/components/CompanyLogo';
 import MobileMenu from '@/components/MobileMenu';
@@ -49,14 +49,14 @@ const ActionLinks = () => {
   return (
     <Row className={styles.actions} alignItems="center" gap="2">
       <Button className={styles.login} variant="quiet" asChild>
-        <Link href={`https://analytics.imoogleai.xyz/login${query}`} data-umami-event="login-button-header">
+        <Link href={`https://analytics.imoogleai.xyz/login${query}`} data-oravo-event="login-button-header">
           Log in
         </Link>
       </Button>
       <Button className={styles.signup} variant="primary" asChild>
         <Link
           href={`https://analytics.imoogleai.xyz/signup${query}`}
-          data-umami-event="signup-button-header"
+          data-oravo-event="signup-button-header"
         >
           Sign up
         </Link>

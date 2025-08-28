@@ -1,5 +1,5 @@
 'use client';
-import { Icon, Icons, Text } from '@umami/react-zen';
+import { Icon, Icons, Text } from '@oravo/react-zen';
 import TextBlock from '@/components/TextBlock';
 import LinkButton from '@/components/LinkButton';
 import styles from './Personas.module.css';

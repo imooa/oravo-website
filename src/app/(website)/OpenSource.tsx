@@ -1,4 +1,4 @@
-import { Column, Row } from '@umami/react-zen';
+import { Column, Row } from '@oravo/react-zen';
 import GitHubStats from '@/app/(website)/GitHubStats';
 import TextBlock from '@/components/TextBlock';
 import LinkButton from '@/components/LinkButton';

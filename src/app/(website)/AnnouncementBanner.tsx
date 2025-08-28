@@ -1,5 +1,5 @@
 'use client';
-import { Icon, Icons } from '@umami/react-zen';
+import { Icon, Icons } from '@oravo/react-zen';
 import styles from './AnnouncementBanner.module.css';
 import { useEffect, useState } from 'react';
 

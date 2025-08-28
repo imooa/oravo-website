@@ -1,5 +1,5 @@
 'use client';
-import { Row } from '@umami/react-zen';
+import { Row } from '@oravo/react-zen';
 import TextBlock from '@/components/TextBlock';
 import ContentImage from '@/components/ContentImage';
 import { X } from 'src/components/svg';

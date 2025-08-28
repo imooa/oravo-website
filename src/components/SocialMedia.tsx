@@ -1,5 +1,5 @@
 'use client';
-import { Icon, Row } from '@umami/react-zen';
+import { Icon, Row } from '@oravo/react-zen';
 import Link from 'next/link';
 import { Github, X, Discord, Linkedin } from 'src/components/svg';
 import { GITHUB_URL, DISCORD_URL, X_URL, LINKEDIN_URL } from '@/lib/constants';
@@ -15,7 +15,7 @@ export default function SocialMedia({ size = 'sm' }: { size?: 'sm' | 'md' | 'lg'
   return (
     <Row gap>
       {links.map(({ name, url, icon }) => (
-        <Link key={url} href={url} target="_blank" title={name} data-umami-event={`social-${name}`}>
+        <Link key={url} href={url} target="_blank" title={name} data-oravo-event={`social-${name}`}>
           <Icon size={size}>{icon}</Icon>
         </Link>
       ))}
