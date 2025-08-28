@@ -1,5 +1,6 @@
 import { Select, Form, FormField, FormSubmitButton, TextArea, TextField } from '@umami/react-zen';
 import { useState } from 'react';
+import styles from './ContactForm.module.css';
 
 const items = ['Less than 20', '20-49', '50-499', '500+'];
 
@@ -11,34 +12,41 @@ export default function ContactForm() {
   };
 
   if (sent) {
-    return <h2 style={{ width: 400, margin: 'auto' }}>Thank you! We will get in touch shortly.</h2>;
+    return (
+      <div className={styles.successMessage}>
+        <h2>Thank you! We will get in touch shortly.</h2>
+      </div>
+    );
   }
 
   return (
-    <Form onSubmit={handleSubmit} style={{ width: 400, margin: 'auto' }}>
-      <FormField label="Full name" name="name" rules={{ required: 'Required' }}>
-        <TextField placeholder="John Smith" style={{ width: '100%' }} />
+    <Form onSubmit={handleSubmit} className={styles.form}>
+      <FormField label="Full name" name="name" rules={{ required: 'Required' }} className={styles.formField}>
+        <TextField placeholder="John Smith" className={styles.input} />
       </FormField>
-      <FormField label="Work email" name="email" rules={{ required: 'Required' }}>
-        <TextField placeholder="john@company.com" style={{ width: '100%' }} />
+      <FormField label="Work email" name="email" rules={{ required: 'Required' }} className={styles.formField}>
+        <TextField placeholder="john@company.com" className={styles.input} />
       </FormField>
-      <FormField label="Title" name="title">
-        <TextField placeholder="Software Engineer" style={{ width: '100%' }} />
+      <FormField label="Title" name="title" className={styles.formField}>
+        <TextField placeholder="Software Engineer" className={styles.input} />
       </FormField>
-      <FormField label="Company" name="company">
-        <TextField placeholder="Company, Inc." style={{ width: '100%' }} />
+      <FormField label="Company" name="company" className={styles.formField}>
+        <TextField placeholder="Company, Inc." className={styles.input} />
       </FormField>
-      <FormField label="Company size" name="size">
-        <Select placeholder="Select a value" items={items} style={{ width: '100%' }} />
+      <FormField label="Company size" name="size" className={styles.formField}>
+        <Select placeholder="Select a value" items={items} className={styles.input} />
       </FormField>
       <FormField
         label="Tell us about your use case"
         name="comment"
         rules={{ required: 'Required' }}
+        className={styles.formField}
       >
-        <TextArea style={{ height: 300, width: 400 }} />
+        <TextArea className={styles.textarea} />
       </FormField>
-      <FormSubmitButton variant="primary">Submit</FormSubmitButton>
+      <FormSubmitButton variant="primary" className={styles.submitButton}>
+        Submit
+      </FormSubmitButton>
     </Form>
   );
 }

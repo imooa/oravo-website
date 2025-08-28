@@ -1,25 +1,24 @@
 'use client';
-import Link from 'next/link';
-import { Grid, Column, Row, Button } from '@umami/react-zen';
 import PageHeader from '@/components/PageHeader';
 import SocialMedia from '@/components/SocialMedia';
 import ContactForm from './ContactForm';
+import styles from './ContactPage.module.css';
 
 export default function ContactPage() {
   return (
     <>
       <PageHeader title="Contact" description="We would love to hear from you!" />
-      <Row justifyContent="center">
-        <Grid columns={{ xs: '1fr', md: '1fr 1fr' }} maxWidth="800px">
+      <div className={styles.container}>
+        <div className={styles.grid}>
           <ContactForm />
-          <Column alignItems="center" gap="12" style={{ marginTop: '3rem' }}>
-            <Column alignItems="center" gap="6">
+          <div className={styles.sidebar}>
+            <div className={styles.socialSection}>
               <h3>Connect with us</h3>
               <SocialMedia size="lg" />
-            </Column>
-          </Column>
-        </Grid>
-      </Row>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
