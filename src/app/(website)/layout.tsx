@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-scroll="0">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="https://analytics.imoogleai.xyz/script.js" data-website-id="c095129c-bd83-4178-ad45-19cc5ba5b778"></script>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
