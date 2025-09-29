@@ -18,7 +18,7 @@ const featuresChart = [
     label: 'Data',
     items: [
       ['Events (included)', '100K', '1 million', 'Custom'],
-      ['Additional events', false, '$0.00002 per event', 'Custom'],
+      ['Additional events', false, '₦0.0000 per event', 'Custom'],
       ['Data export', true, true, true],
       ['Data import', false, true, true],
     ],
@@ -28,7 +28,7 @@ const featuresChart = [
     items: [
       ['Websites', 'Up to 3', 'Unlimited', 'Unlimited'],
       ['Teams', false, true, true],
-      ['Team members', false, 'Unlimited', 'Unlimited'],
+      ['Team members', true, 'Unlimited', 'Unlimited'],
       ['Custom events', true, true, true],
       ['Event properties', true, true, true],
       ['Session properties', true, true, true],
@@ -68,10 +68,10 @@ const featuresChart = [
     label: 'Support',
     items: [
       ['Community support', true, true, true],
-      ['Email support', false, true, true],
+      ['Email support', true, true, true],
       ['Enterprise support', false, false, true],
       ['Uptime SLA', false, false, true],
-      ['Onboarding assistance', false, false, true],
+      ['Onboarding assistance', true, false, true],
       ['Designated support engineer', false, false, true],
     ],
   },
@@ -85,12 +85,12 @@ export default function Features() {
           <TableColumn align="center"></TableColumn>
           <TableColumn align="center">
             <Text weight="bold" size="5">
-              Hobby
+              Hobby (free)
             </Text>
           </TableColumn>
           <TableColumn align="center">
             <Text weight="bold" size="5">
-              Pro
+              Pro (free)
             </Text>
           </TableColumn>
           <TableColumn align="center">
