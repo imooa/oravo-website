@@ -26,13 +26,13 @@ const featuresChart = [
   {
     label: 'Analytics',
     items: [
-      ['Websites', 'Up to 3', 'Unlimited', 'Unlimited'],
-      ['Teams', false, true, true],
+      ['Websites', 'unlimited', 'Unlimited', 'Unlimited'],
+      ['Teams', tue, true, true],
       ['Team members', true, 'Unlimited', 'Unlimited'],
       ['Custom events', true, true, true],
       ['Event properties', true, true, true],
       ['Session properties', true, true, true],
-      ['API access', 'Limited', true, true],
+      ['API access', 'unlimited', true, true],
     ],
   },
   {
