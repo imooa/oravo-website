@@ -69,6 +69,7 @@ const ActionLinks = () => {
       <div className={styles.hamburger}>
         <MobileMenu items={mobileMenuItems} />
       </div>
+      <script defer src="https://analytics.imoogleai.xyz/script.js" data-website-id="c095129c-bd83-4178-ad45-19cc5ba5b778"></script>
     </Row>
   );
 };
